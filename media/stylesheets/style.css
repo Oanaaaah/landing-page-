@@ -8,7 +8,7 @@
 
 
 
-body {font-family: 'Poppins';margin: 0;}
+body {font-family: 'Poppins';margin-bottom: 800px;}
 
 
 .top_bar {
@@ -107,7 +107,7 @@ margin: 0 15px;
 #watchthevideo img{margin-right: 6px;vertical-align: -3px;}
 
 #amico{
-    /* max-width: 100%; */
+   
     width: 100%;
 }
 
@@ -127,11 +127,14 @@ margin: 0 15px;
 .subtitle{font-size: 32px; font-weight: 700; color: #22343D; text-align: center
     ;}
 
+.subtitle2{/* width: 500px; */size: 16px;font-weight: 500;text-align: center;}
 
-.gradientcontainer{background-image: url("../../media/icons&pictures/Bg.svg");background-position: bottom center;background-repeat: no-repeat;background-size: cover;min-height: 400px;text-align: center;}
+.left{text-align: center;/* margin-left: 178px; */margin-bottom: 28px;margin-top: 18px;}
+
+.gradientcontainer{background-image: url("../../media/icons&pictures/Bg.svg");background-position: bottom center;background-repeat: no-repeat;background-size: cover;min-height: 400px;}
 
 
-.basic_flex_center_space_between {display: flex;align-items: left;justify-content: space-between;text-align: left;} 
+.basic_flex_center_space_between {display: flex;justify-content: space-between;} 
 .gradientcontainer_maxSize {margin: 50px auto;max-width: 1200px;}
 
 .gradbaby {max-width: 300px;/* flex: 0 0 auto; */}
@@ -141,14 +144,112 @@ margin: 0 15px;
 
 
 .basic_flex_center_align{display: flex;justify-content: center;max-width: 1200px;margin:  auto;}
+.inverse{flex-direction: row-reverse;}
+.basic_column_align{display: flex;flex-direction: column;}
 
 .familyof3{flex: 1 1 auto;text-align: left;color: #22343D;margin-right: 5%;}
 .familyof3 h4{ size: 16px;font-weight: 600;}
 .familyof3 h2{size: 43px;font-weight: 700;}
 .familyof3 p{ size: 16px; font-weight: 400;}
 
+.check_text{display: flex;vertical-align: revert;}
+.check_image{margin:0%;padding-right: 20px;}
 
-.work_pictures{flex: 1 1 auto;font-size: ;}
+.work_pictures{flex: 1 1 auto;max-width: 100%;}
+.work_pictures img {max-width: 100%;}
+
+.gradientcontainer2{background-image: url(../icons&pictures/gradient\ invers.svg);background-position: top center;background-repeat: no-repeat;background-size: cover;/* min-height: 400px; */justify-content: space-between;align-items: center;box-sizing: border-box;width: 100%;}
+
+
+.chat-box{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+
+.bubble_box_right{background-image: url(../icons&pictures/chat\ right.svg);background-position: center;background-repeat: no-repeat;background-size: cover;size: 16px;font-weight: 500;padding-top: 16px;width: 300px;text-align: center;box-sizing: border-box;}
+
+.bubble_box_left{background-image: url(../icons&pictures/chat\ left.svg);background-position: center;background-repeat: no-repeat;background-size: cover;size: 16px;font-weight: 500;padding-top: 16px;width: 300px;text-align: center;box-sizing: border-box;}
+
+.avatar{height: 100px;width: 100px;margin-right: 40px;}
+
+.inline_chat{display: flex;}
+
+.green-button{background-color: #02897A;width: 200px;border-radius: 4px;color: white;size: 16px;font-weight: 700;padding: 17px;border: 2px solid;border-color: #02897A;margin: 30px auto;display: inherit;letter-spacing: 1.25px;}
+
+.strategies-images{font-size: 0;margin-bottom: 15px;}
+.strategies-images img {
+    object-fit: cover;
+    width: 100%;
+}
+
+
+.reusable-text{
+    font-weight: 700;
+    text-align: left;
+    font-size: 19pt;
+    margin: 15px 10px;
+}
+.green{ color:#02897A ;}
+.new {
+    margin: 25px 70px 20px  70px;
+    justify-content: space-evenly;
+}
+.strategies{border: 1px;border-color: black;border-style: solid;border-radius: 14px;padding: 0px;margin: 0 10px;overflow: hidden;max-width: 380px;}
+
+
+.flex_dot{display: flex;justify-content: center;margin: 40px;}
+
+.dot{
+    width: 16px;
+    margin: 10px;
+}
+
+
+.price_table{display: flex;justify-content: space-around;margin-top: 70px;max-width: 1313px;margin: 20px auto;margin-bottom: 78px;}
+.price_selection{/* width: 320px; *//* align-items: center; */text-align: center;border: 1px solid;border-color: gray;border-radius: 8px;box-shadow: 0px 3px 20px -12px grey;overflow: visible;padding: 73px;}
+
+.price_selection h3{font-size: 24px; color:black; font-weight: 700;}
+.price_selection p{font-size: 16px;font-weight: 400;}
+
+.price_selection h4{font-size: 16px;font-weight: 400;}
+
+.price_selection img{}
+
+.price_selection div{background-color: #02897A;border-radius: 8px;padding: 10px;align-self: center;border: 1px solid;border-color: #02897A;color: white;box-shadow: 0px 2px 20px -10px grey;}
+
+.standard{background-color: #02897A;
+
+
+}
+
+.standard h3{color: white;}
+.standard p{color: white;}
+.standard img{color: white;}
+.standard h4{color: white;}
+.standard div{
+    background-color: white;
+    color: #02897A;
+    /* box-shadow: 0px 4px 20px 5px grey; */
+}
+
+.flex_review{display: flex;justify-content: space-evenly;/* margin-top: 20px; *//* max-width: 1000px; *//* align-items: center; */margin: 20px 40px 20px 40px;}
+
+.review{border: 1px solid;border-color: gray;border-radius: 5px;box-shadow: 0px 3px 20px -12px grey;max-width: 330px;padding: 26px;}
+
+.review_text{font-size: 16px;font-weight: 400;/* margin: 14px; */}
+
+.review_image{max-width: 50px; font-size: 0px;}
+
+#customer{}
+
+#customer img{float: left;margin-right: 15px;}
+
+.customer_name{font-size: 16px; font-weight: 600;
+color: #02897A; margin: 5px;}
+
+.customer_occupation{font-size: 14px;font-weight: 500;margin: -3px;}
 
 
 
@@ -156,15 +257,26 @@ margin: 0 15px;
 
 
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
+    body{margin-right: 10px; margin-left: 10px;}
     .top_bar_right {display: none;}
     .top_bar_mobile_button {display: block; }
-    #undernav_left{display: none;/* width: 0; *//* margin: 0; */}
+    #undernav_left{display: none;}
     #amico{ display: block;
         margin-left: auto;
         margin-right: auto;
         width: 50%;}
     .gradientcontainer .basic_flex_center_space_between {flex-direction: column;align-items: center;text-align: center;}
+    .basic_flex_center_align{flex-direction: column;}
+    .chat-box{flex-direction: column; justify-content: center;}
+    .inline_chat{justify-content: center;}
+    .new{flex-direction: column;margin-top: 20px;align-items: center;}
+    .strategies{margin-top: 20px;}
+    .price_table{flex-direction: column;justify-content: center;align-items: center;}
+    .price_selection{margin-top: 20px; max-width: 330px;}
+    .flex_review{flex-direction: column;justify-content: center;align-items: center;}
+    .review{margin-top: 20px;max-width: 330px;}
 
 
 }
+
